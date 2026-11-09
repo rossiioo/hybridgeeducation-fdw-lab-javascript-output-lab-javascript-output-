@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - JavaScript Output</title>
+</head>
+<body>
+
+    <!-- Párrafo vacío con id para identificarlo -->
+    <p id="parrafoTexto"></p>
+
+    <!-- Botón que activa la función de actualización -->
+    <button onclick="actualizarTexto()">Actualizar Texto</button>
+
+    <script>
+        function actualizarTexto() {
+            document.getElementById("parrafoTexto").innerText = "¡Texto actualizado con Javascript!";
+        }
+    </script>
+
+</body>
+</html>
