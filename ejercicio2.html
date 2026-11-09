@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Demostración de Output</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Demostración de Output en Javascript</h1>
+
+    <!-- Botón para mostrar alerta con tu nombre -->
+    <button onclick="mostrarNombre()">Mostrar Alerta</button>
+
+    <br><br>
+
+    <!-- Párrafo vacío y botón para cambiar su contenido -->
+    <p id="mensajeParrafo"></p>
+    <button onclick="cambiarParrafo()">Cambiar Contenido del Párrafo</button>
+
+    <script>
+        // Mensaje que se ejecuta automáticamente al cargar la página en la consola (F12)
+        console.log("La página ejercicio2.html se ha cargado correctamente.");
+
+        // Función para la alerta
+        function mostrarNombre() {
+            alert("Rocio Cabañas");
+        }
+
+        // Función para actualizar el texto del párrafo
+        function cambiarParrafo() {
+            document.getElementById("mensajeParrafo").innerText = "¡Texto actualizado con Javascript!";
+        }
+    </script>
+
+</body>
+</html>
